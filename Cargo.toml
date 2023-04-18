@@ -2,11 +2,14 @@
 name = "spreading_colors_ca"
 version = "0.2.0"
 edition = "2021"
+description = "A cellular automaton that produces pretty images from spreading colors"
+license = "MIT"
+authors = ["beetle"]
+repository = "https://github.com/Mearkatz/spreading_colors_ca"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-clearscreen = "2"
 colored = "2.0.0"
 image = "0.24.4"
 inquire = "0.6.0"
